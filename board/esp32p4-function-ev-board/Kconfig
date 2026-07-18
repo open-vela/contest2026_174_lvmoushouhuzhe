@@ -1,0 +1,7 @@
+#
+# ESP32-P4 Function EV Board configuration (openvela vendor layer)
+#
+
+if ARCH_BOARD_ESP32P4_FUNCTION_EV_BOARD
+
+endif

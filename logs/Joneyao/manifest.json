@@ -3,7 +3,7 @@
   "team_id": "contest2026_174_lvmoushouhuzhe",
   "github_login": "Joneyao",
   "generator": "kiro-collector@2.0.0",
-  "updated_at": "2026-07-18T07:29:42.192Z",
+  "updated_at": "2026-07-18T09:11:25.707Z",
   "sessions": [
     {
       "session_id": "63eaf5cb-70cb-4934-b2f5-eea2605ee247",
@@ -19,8 +19,8 @@
       "session_id": "8770fa96-3837-4b9a-8c28-bab778d95684",
       "tool": "kiro",
       "started_at": "2026-07-18T05:53:28.640Z",
-      "last_event_at": "2026-07-18T07:29:42.183Z",
-      "event_count": 218,
+      "last_event_at": "2026-07-18T08:23:05.809Z",
+      "event_count": 228,
       "file_path": "logs/Joneyao/2026-07-18/kiro__8770fa96-3837-4b9a-8c28-bab778d95684.jsonl",
       "collection_mode": "cli",
       "health": "ok"
@@ -29,9 +29,19 @@
       "session_id": "9c5aaf58-e938-449c-a2b4-adf488873e61",
       "tool": "kiro",
       "started_at": "2026-07-18T06:48:09.212Z",
-      "last_event_at": "2026-07-18T07:29:42.192Z",
-      "event_count": 311,
+      "last_event_at": "2026-07-18T09:11:25.707Z",
+      "event_count": 608,
       "file_path": "logs/Joneyao/2026-07-18/kiro__9c5aaf58-e938-449c-a2b4-adf488873e61.jsonl",
+      "collection_mode": "cli",
+      "health": "ok"
+    },
+    {
+      "session_id": "469c6ebc-c1d7-4471-ab76-bbc5263823c1",
+      "tool": "kiro",
+      "started_at": "2026-07-18T08:24:14.743Z",
+      "last_event_at": "2026-07-18T08:54:01.669Z",
+      "event_count": 14,
+      "file_path": "logs/Joneyao/2026-07-18/kiro__469c6ebc-c1d7-4471-ab76-bbc5263823c1.jsonl",
       "collection_mode": "cli",
       "health": "ok"
     }

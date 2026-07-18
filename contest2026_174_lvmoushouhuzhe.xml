@@ -1,16 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
   <!--
-    Team repo manifest. Includes the full openvela base project set
-    (openvela.xml in this same repo) and adds this team repo as a self-ref
-    project, exposing its work-form subdirectories to openvela working-tree
-    locations via <linkfile>. remote/default come from the included openvela.xml.
+    Team 174 repo manifest.
+    Includes the full openvela base (openvela.xml) and maps team board/app
+    directories into the openvela build tree via <linkfile>.
   -->
   <include name="openvela.xml"/>
 
-  <project path="contest2026_174_lvmoushouhuzhe" name="contest2026_174_lvmoushouhuzhe">
-    <linkfile src="app/hello_app" dest="packages/demos/contest2026_174_hello_app"/>
-    <linkfile src="quickapp/hello_quickapp" dest="packages/apps/contest2026_174_hello_quickapp"/>
-    <linkfile src="board/contest_board" dest="vendor/openvela/boards/contest2026_174_board"/>
+  <project path="contest2026_174_lvmoushouhuzhe"
+           name="contest2026_174_lvmoushouhuzhe">
+    <!-- 板级适配：映射到 vendor/espressif 标准路径 -->
+    <linkfile src="board/esp32p4-function-ev-board"
+              dest="vendor/espressif/boards/esp32p4/esp32p4-function-ev-board"/>
+    <!-- quickapp：保留供后续 UI 应用开发 -->
+    <linkfile src="quickapp/hello_quickapp"
+              dest="packages/apps/contest2026_174_hello_quickapp"/>
   </project>
 </manifest>

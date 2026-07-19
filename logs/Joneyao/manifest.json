@@ -3,7 +3,7 @@
   "team_id": "contest2026_174_lvmoushouhuzhe",
   "github_login": "Joneyao",
   "generator": "kiro-collector@2.0.0",
-  "updated_at": "2026-07-18T09:11:25.707Z",
+  "updated_at": "2026-07-19T06:55:47.108Z",
   "sessions": [
     {
       "session_id": "63eaf5cb-70cb-4934-b2f5-eea2605ee247",
@@ -29,8 +29,8 @@
       "session_id": "9c5aaf58-e938-449c-a2b4-adf488873e61",
       "tool": "kiro",
       "started_at": "2026-07-18T06:48:09.212Z",
-      "last_event_at": "2026-07-18T09:11:25.707Z",
-      "event_count": 608,
+      "last_event_at": "2026-07-19T03:27:55.583Z",
+      "event_count": 1051,
       "file_path": "logs/Joneyao/2026-07-18/kiro__9c5aaf58-e938-449c-a2b4-adf488873e61.jsonl",
       "collection_mode": "cli",
       "health": "ok"
@@ -42,6 +42,36 @@
       "last_event_at": "2026-07-18T08:54:01.669Z",
       "event_count": 14,
       "file_path": "logs/Joneyao/2026-07-18/kiro__469c6ebc-c1d7-4471-ab76-bbc5263823c1.jsonl",
+      "collection_mode": "cli",
+      "health": "ok"
+    },
+    {
+      "session_id": "8cc308f6-6068-487b-a9ac-9c8db8e9e660",
+      "tool": "kiro",
+      "started_at": "2026-07-19T01:30:13.288Z",
+      "last_event_at": "2026-07-19T03:27:55.595Z",
+      "event_count": 383,
+      "file_path": "logs/Joneyao/2026-07-19/kiro__8cc308f6-6068-487b-a9ac-9c8db8e9e660.jsonl",
+      "collection_mode": "cli",
+      "health": "ok"
+    },
+    {
+      "session_id": "f148a1b2-c5a2-4458-b8ed-636244a860ca",
+      "tool": "kiro",
+      "started_at": "2026-07-19T06:01:09.483Z",
+      "last_event_at": "2026-07-19T06:55:47.107Z",
+      "event_count": 5,
+      "file_path": "logs/Joneyao/2026-07-19/kiro__f148a1b2-c5a2-4458-b8ed-636244a860ca.jsonl",
+      "collection_mode": "cli",
+      "health": "ok"
+    },
+    {
+      "session_id": "bee45ca3-9263-4a83-b8c4-909c61bcca4f",
+      "tool": "kiro",
+      "started_at": "2026-07-19T06:54:41.275Z",
+      "last_event_at": "2026-07-19T06:55:47.108Z",
+      "event_count": 1,
+      "file_path": "logs/Joneyao/2026-07-19/kiro__bee45ca3-9263-4a83-b8c4-909c61bcca4f.jsonl",
       "collection_mode": "cli",
       "health": "ok"
     }

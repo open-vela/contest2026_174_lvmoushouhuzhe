@@ -8,6 +8,61 @@
 
 ---
 
+## 本作品当前进展（ESP32-P4 新硬件适配）
+
+在 ESP32-P4-Function-EV-Board 上适配 OpenVela，已完成显示与摄像头链路。
+
+| 功能 | 状态 | 说明 |
+|------|------|------|
+| USB-Serial/JTAG | ✅ | ttyACM 控制台 |
+| PSRAM 32MB | ✅ | 200MHz，MPLL LDO 寄存器直写上电 |
+| MIPI-DSI 显示 | ✅ | EK79007 1024×600 RGB565，`/dev/fb0` 双缓冲 |
+| MIPI-CSI 摄像头 | ✅ | SC2336，`/dev/video0` RGB565 |
+| 摄像头预览 | ✅ | `campreview`，**30fps 零拷贝**（DMA 直写显示缓冲） |
+
+### 快速验证
+
+```bash
+# 构建烧录
+export WS=$(pwd)/..    # openvela 工作区根目录
+export ESPTOOL=$WS/esp32-p4/esp/tools/python_env/idf6.0_py3.12_env/bin/esptool.py
+cd $WS
+./build.sh vendor/espressif/boards/esp32p4/esp32p4-function-ev-board/configs/openvela --cmake -j8
+cd cmake_out/esp32p4-function-ev-board_openvela
+$ESPTOOL --chip esp32p4 elf2image -fs 16MB -fm dio -ff 80m --ram-only-header -o nuttx.bin nuttx
+$ESPTOOL -c esp32p4 -p /dev/ttyACM0 -b 921600 --before default-reset --after hard-reset \
+    write-flash 0x2000 nuttx.bin
+```
+
+烧录后：
+
+1. **屏幕应为纯红** —— 这是显示链路全通的自检信号
+2. 连上串口（必须支持 DTR，`cat /dev/ttyACM0` 无效）执行预览：
+
+```
+nsh> campreview 180
+campreview: preview 1024x600 RGB565 -> RGB565, zero-copy, limited run
+campreview: 60 frames, 29.7 fps
+campreview: 120 frames, 30.0 fps
+```
+
+看到 `zero-copy` 和 `30.0 fps` 即为正常。
+
+> 完整测试步骤、寄存器速查、故障处理、画面偏色调整见
+> **[docs/esp32p4-test-guide.md](docs/esp32p4-test-guide.md)**。
+
+### 代码分布
+
+板级适配在本仓 `board/esp32p4-function-ev-board/`；驱动改动在公共仓，已按赛事要求
+以 PR 形式提交：
+
+| 仓库 | 分支 | 内容 |
+|------|------|------|
+| `nuttx` | `feat/esp32p4-support` | DSI/CSI 驱动、DW-GDMA 移植（PR open-vela/nuttx#322） |
+| `apps` | `dev-ai-contest-2026` | `examples/campreview` 预览应用 |
+
+---
+
 ## 一、先读这些官方文档
 
 **通用（所有赛道必读）：**

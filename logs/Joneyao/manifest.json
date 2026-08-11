@@ -3,158 +3,8 @@
   "team_id": "contest2026_174_lvmoushouhuzhe",
   "github_login": "Joneyao",
   "generator": "claude-code-collector@1.2.0",
-  "updated_at": "2026-08-11T01:35:39.403Z",
+  "updated_at": "2026-08-11T03:04:16.640Z",
   "sessions": [
-    {
-      "session_id": "63eaf5cb-70cb-4934-b2f5-eea2605ee247",
-      "tool": "kiro",
-      "started_at": "2026-07-18T05:38:55.615Z",
-      "last_event_at": "2026-07-18T07:28:20.435Z",
-      "event_count": 115,
-      "file_path": "logs/Joneyao/2026-07-18/kiro__63eaf5cb-70cb-4934-b2f5-eea2605ee247.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "8770fa96-3837-4b9a-8c28-bab778d95684",
-      "tool": "kiro",
-      "started_at": "2026-07-18T05:53:28.640Z",
-      "last_event_at": "2026-07-18T08:23:05.809Z",
-      "event_count": 228,
-      "file_path": "logs/Joneyao/2026-07-18/kiro__8770fa96-3837-4b9a-8c28-bab778d95684.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "9c5aaf58-e938-449c-a2b4-adf488873e61",
-      "tool": "kiro",
-      "started_at": "2026-07-18T06:48:09.212Z",
-      "last_event_at": "2026-07-19T03:27:55.583Z",
-      "event_count": 1051,
-      "file_path": "logs/Joneyao/2026-07-18/kiro__9c5aaf58-e938-449c-a2b4-adf488873e61.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "469c6ebc-c1d7-4471-ab76-bbc5263823c1",
-      "tool": "kiro",
-      "started_at": "2026-07-18T08:24:14.743Z",
-      "last_event_at": "2026-07-18T08:54:01.669Z",
-      "event_count": 14,
-      "file_path": "logs/Joneyao/2026-07-18/kiro__469c6ebc-c1d7-4471-ab76-bbc5263823c1.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "8cc308f6-6068-487b-a9ac-9c8db8e9e660",
-      "tool": "kiro",
-      "started_at": "2026-07-19T01:30:13.288Z",
-      "last_event_at": "2026-07-19T03:27:55.595Z",
-      "event_count": 383,
-      "file_path": "logs/Joneyao/2026-07-19/kiro__8cc308f6-6068-487b-a9ac-9c8db8e9e660.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "f148a1b2-c5a2-4458-b8ed-636244a860ca",
-      "tool": "kiro",
-      "started_at": "2026-07-19T06:01:09.483Z",
-      "last_event_at": "2026-07-19T09:58:19.614Z",
-      "event_count": 6,
-      "file_path": "logs/Joneyao/2026-07-19/kiro__f148a1b2-c5a2-4458-b8ed-636244a860ca.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "bee45ca3-9263-4a83-b8c4-909c61bcca4f",
-      "tool": "kiro",
-      "started_at": "2026-07-19T06:54:41.275Z",
-      "last_event_at": "2026-07-19T09:58:19.616Z",
-      "event_count": 12,
-      "file_path": "logs/Joneyao/2026-07-19/kiro__bee45ca3-9263-4a83-b8c4-909c61bcca4f.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "53ec9dfa-ff9d-4ceb-8452-ecaed4363485",
-      "tool": "kiro",
-      "started_at": "2026-07-19T09:15:46.704Z",
-      "last_event_at": "2026-08-03T02:09:56.662Z",
-      "event_count": 30,
-      "file_path": "logs/Joneyao/2026-07-19/kiro__53ec9dfa-ff9d-4ceb-8452-ecaed4363485.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "4804618d-5518-4964-a161-4ee33015f417",
-      "tool": "kiro",
-      "started_at": "2026-07-19T09:33:42.476Z",
-      "last_event_at": "2026-07-19T09:58:19.633Z",
-      "event_count": 1,
-      "file_path": "logs/Joneyao/2026-07-19/kiro__4804618d-5518-4964-a161-4ee33015f417.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "cf3c2c3b-3568-49e8-b114-4dab28164da8",
-      "tool": "kiro",
-      "started_at": "2026-07-21T04:52:08.205Z",
-      "last_event_at": "2026-08-03T02:09:56.664Z",
-      "event_count": 1,
-      "file_path": "logs/Joneyao/2026-07-21/kiro__cf3c2c3b-3568-49e8-b114-4dab28164da8.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "762fef46-30aa-4695-b9df-412f597ae688",
-      "tool": "kiro",
-      "started_at": "2026-07-21T10:54:00.428Z",
-      "last_event_at": "2026-08-03T02:09:56.678Z",
-      "event_count": 53,
-      "file_path": "logs/Joneyao/2026-07-21/kiro__762fef46-30aa-4695-b9df-412f597ae688.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "75ea3464-603a-4e30-ab3b-8eb2752626ed",
-      "tool": "kiro",
-      "started_at": "2026-07-23T09:38:57.577Z",
-      "last_event_at": "2026-08-03T02:09:56.690Z",
-      "event_count": 37,
-      "file_path": "logs/Joneyao/2026-07-23/kiro__75ea3464-603a-4e30-ab3b-8eb2752626ed.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "be792522-a205-4155-a858-c181bd2cb73b",
-      "tool": "kiro",
-      "started_at": "2026-07-26T01:23:08.816Z",
-      "last_event_at": "2026-08-03T02:09:56.692Z",
-      "event_count": 1,
-      "file_path": "logs/Joneyao/2026-07-26/kiro__be792522-a205-4155-a858-c181bd2cb73b.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "68a013c8-299f-46e6-8252-0fe492acf8b3",
-      "tool": "kiro",
-      "started_at": "2026-07-26T04:27:56.179Z",
-      "last_event_at": "2026-08-03T02:09:56.694Z",
-      "event_count": 6,
-      "file_path": "logs/Joneyao/2026-07-26/kiro__68a013c8-299f-46e6-8252-0fe492acf8b3.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
-    {
-      "session_id": "ac5d4cfa-3bd9-40fd-8f9a-a6678187b1aa",
-      "tool": "kiro",
-      "started_at": "2026-07-26T07:19:44.639Z",
-      "last_event_at": "2026-08-03T02:09:56.696Z",
-      "event_count": 16,
-      "file_path": "logs/Joneyao/2026-07-26/kiro__ac5d4cfa-3bd9-40fd-8f9a-a6678187b1aa.jsonl",
-      "collection_mode": "cli",
-      "health": "ok"
-    },
     {
       "session_id": "8da01884-c2fb-4aae-af3c-9d4ede3400fb",
       "tool": "claude-code",
@@ -483,9 +333,9 @@
       "session_id": "9fb67ff0-8f8d-4982-a6f2-9fe9841e9e19",
       "tool": "claude-code",
       "started_at": "2026-08-07T11:00:31.412Z",
-      "last_event_at": "2026-08-11T01:35:39.403Z",
-      "event_count": 2854,
-      "raw_event_count": 4318,
+      "last_event_at": "2026-08-11T03:04:16.640Z",
+      "event_count": 2952,
+      "raw_event_count": 4470,
       "file_path": "logs/Joneyao/2026-08-11/claude-code__9fb67ff0-8f8d-4982-a6f2-9fe9841e9e19.jsonl",
       "collection_mode": "cli",
       "health": "ok",

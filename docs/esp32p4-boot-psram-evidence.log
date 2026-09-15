@@ -1,0 +1,43 @@
+I (1201) esp_psram: SPI SRAM memory test OK
+
+ESP-ROM:esp32p4-eco7-20260109
+Build:Jan  9 2026
+rst:0x17 (CHIP_USB_UART_RESET),boot:0x1c (SPI_FAST_FLASH_BOOT)
+SPI mode:DIO, clock div:1
+load:0x30100000,len:0x88
+load:0x4ff40000,len:0xd69c
+SHA-256 comparison failed:
+Calculated: 4b43f6aa2aeffc46c647634ef553f4108b56f20d6987a4a6fbf0dc1ecc59137b
+Expected: 00000000c0080000000000000000000000000000000000000000000000000000
+Attempting to boot anyway...
+entry 0x4ff49c14
+*** Booting NuttX ***
+I (39) boot: chip revision: v3.2
+I (40) boot: efuse block revision: v1.2
+I (40) boot.esp32p4: SPI Speed      : 80MHz
+I (40) boot.esp32p4: SPI Mode       : DIO
+I (43) boot.esp32p4: SPI Flash Size : 4MB
+I (47) boot: Enabling RNG early entropy source...
+tcm: lma 0x00002020 vma 0x30100000 len 0x88     (136)
+dram: lma 0x000020b0 vma 0x4ff40000 len 0xd69c   (54940)
+padd: lma 0x0000f758 vma 0x00000000 len 0x8c0    (2240)
+imap: lma 0x00010020 vma 0x40090020 len 0x1d384  (119684)
+padd: lma 0x0002d3ac vma 0x00000000 len 0x2c4c   (11340)
+imap: lma 0x00030000 vma 0x40000000 len 0x8b6c8  (571080)
+total segments stored 6
+I (110) hex_psram: vendor id    : 0x0d (AP)
+I (110) hex_psram: Latency      : 0x01 (Fixed)
+I (111) hex_psram: DriveStr.    : 0x00 (25 Ohm)
+I (111) hex_psram: dev id       : 0x03 (generation 4)
+I (116) hex_psram: density      : 0x07 (256 Mbit)
+I (120) hex_psram: good-die     : 0x06 (Pass)
+I (124) hex_psram: SRF          : 0x02 (Slow Refresh)
+I (129) hex_psram: BurstType    : 0x00 ( Wrap)
+I (133) hex_psram: BurstLen     : 0x03 (2048 Byte)
+I (138) hex_psram: BitMode      : 0x01 (X16 Mode)
+I (142) hex_psram: Readlatency  : 0x02 (10 cycles@Fixed)
+I (147) hex_psram: DriveStrength: 0x00 (1/1)
+I (151) MSPI Timing: Enter psram timing tuning
+I (316) esp_psram: Found 32MB PSRAM device
+I (316) esp_psram: Speed: 80MHz
+PSRAM init OK, size=33554432

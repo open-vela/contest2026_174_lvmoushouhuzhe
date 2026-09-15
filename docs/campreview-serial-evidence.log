@@ -1,0 +1,81 @@
+I (347) esp_psram: Found 32MB PSRAM device
+
+
+
+NuttShell (NSH)
+
+nsh> [KI (
+=== retry ===
+I (347) esp_psram: Found 32MB PSRAM device
+
+I (1204) esp_psram: SPI SRAM memory test OK
+ABCDE (1207) esp_eth: esp_eth_driver_install(218): create link timer failed
+
+NuttShell (NSH)
+nsh> [KI (347) esp_psram
+nsh: I: command not found
+nsh> [K
+nsh> [Kcampreview 180
+campreview: fb 1024x600 fmt=11 bpp=16 stride=2048 fblen=2457600 yres_virtual=1200
+SC: esp_cam_sensor_init: enter
+SC: i2c bus 0 ok (0x4ff4a8b0)
+SC: checking chip id...
+SC: chip_id = 0xcb3a (expected 0xcb3a)
+SC: writing init sequence...
+SC: sw reset (0x0103=0x01), NACK expected...
+SC: sensor ready 10 ms after reset
+SC: init sequence written (166 regs)
+campreview: preview 1024x600 RGB565 -> RGB565, zero-copy, limited run
+campreview: 60 frames, 29.7 fps
+campreview: 120 frames, 30.0 fps
+campreview: 180 frames, 30.0 fps
+campreview: stopped after 180 frames
+nsh> [K
+nsh> [K
+=== retry ===
+ABCDE (1212) esp_eth: esp_eth_driver_install(218): create link timer failed
+
+NuttShell (NSH)
+nsh> [K
+nsh> [K
+nsh> [Kcampreview 180
+campreview: fb 1024x600 fmt=11 bpp=16 stride=2048 fblen=2457600 yres_virtual=1200
+SC: esp_cam_sensor_init: enter
+SC: i2c bus 0 ok (0x4ff4a8b0)
+SC: checking chip id...
+SC: chip_id = 0xcb3a (expected 0xcb3a)
+SC: writing init sequence...
+SC: sw reset (0x0103=0x01), NACK expected...
+SC: sensor ready 10 ms after reset
+SC: init sequence written (166 regs)
+campreview: preview 1024x600 RGB565 -> RGB565, zero-copy, limited run
+campreview: 60 frames, 29.7 fps
+campreview: 120 frames, 30.0 fps
+campreview: 180 frames, 30.0 fps
+campreview: stopped after 180 frames
+nsh> [K
+nsh> [K
+=== retry ===
+I (1204) esp_psram: SPI SRAM memory test OK
+ABCDE (1207) esp_eth: esp_eth_driver_install(218): create link timer failed
+
+NuttShell (NSH)
+nsh> [K
+nsh> [K
+nsh> [Kcampreview 180
+campreview: fb 1024x600 fmt=11 bpp=16 stride=2048 fblen=2457600 yres_virtual=1200
+SC: esp_cam_sensor_init: enter
+SC: i2c bus 0 ok (0x4ff4a8b0)
+SC: checking chip id...
+SC: chip_id = 0xcb3a (expected 0xcb3a)
+SC: writing init sequence...
+SC: sw reset (0x0103=0x01), NACK expected...
+SC: sensor ready 10 ms after reset
+SC: init sequence written (166 regs)
+campreview: preview 1024x600 RGB565 -> RGB565, zero-copy, limited run
+campreview: 60 frames, 29.7 fps
+campreview: 120 frames, 30.0 fps
+campreview: 180 frames, 30.0 fps
+campreview: stopped after 180 frames
+nsh> [K
+nsh> [K

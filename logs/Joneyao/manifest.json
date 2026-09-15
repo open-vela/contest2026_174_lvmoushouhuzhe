@@ -3,7 +3,7 @@
   "team_id": "contest2026_174_lvmoushouhuzhe",
   "github_login": "Joneyao",
   "generator": "claude-code-collector@1.2.0",
-  "updated_at": "2026-09-14T11:21:53.573832+00:00",
+  "updated_at": "2026-09-15T07:28:32.496Z",
   "sessions": [
     {
       "session_id": "8da01884-c2fb-4aae-af3c-9d4ede3400fb",
@@ -570,10 +570,10 @@
       "session_id": "54d31d2c-93d1-4d72-9390-37b2aa2af857",
       "tool": "claude-code",
       "started_at": "2026-09-14T04:15:17.203Z",
-      "last_event_at": "2026-09-14T11:12:41.154Z",
-      "event_count": 104,
-      "raw_event_count": 205,
-      "file_path": "logs/Joneyao/2026-09-14/claude-code__54d31d2c-93d1-4d72-9390-37b2aa2af857.jsonl",
+      "last_event_at": "2026-09-15T07:28:32.473Z",
+      "event_count": 562,
+      "raw_event_count": 2611,
+      "file_path": "logs/Joneyao/2026-09-15/claude-code__54d31d2c-93d1-4d72-9390-37b2aa2af857.jsonl",
       "collection_mode": "cli",
       "health": "ok",
       "model": "deepseek-v4-pro"
